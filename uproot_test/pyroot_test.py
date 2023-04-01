@@ -27,7 +27,7 @@ list_end_x= []
 for entry in tree:
     entry.Show()
     #print(entry.GetLeaf('rec.reco.trk.calo.2.points.dedx').GetNdata())
-    #print(entry.GetLeaf('rec.reco.trk.calo.2.points.dedx').GetLeafCounter())
+    print(entry.GetLeaf('rec.reco.trk.calo.2.points.dedx').GetLeafCounter())
     #dedx= entry.GetLeaf('rec.reco.trk.calo.2.points.dedx')
     #print(dedx)
     ##rr= entry.GetLeaf('rec.reco.trk.calo.2.points.rr').GetValue()
